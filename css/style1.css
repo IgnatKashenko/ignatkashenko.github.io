@@ -1,13 +1,89 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html {
+	height: 100%
+}
 
 body {
   font-family: "Source Code Pro", monospace;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.9;
-  color: #7f7f7f;
-  background: #fff;
-  position: relative;
+	color: #333;
+	background: #fafafa;
 }
+
+a {
+	color: #000;
+	text-decoration: none;
+	transition: all.6s ease;
+}
+
+a:hover {
+	color: #FFA894;
+	text-decoration: none;
+	transition: all.6s ease;
+}
+
+a:active {
+	color: #FF2424;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+  position: relative;
+  bottom: 12px;
+}
+
+hr {
+	display: block;
+	border: 0;
+	height: 1px;
+	border-top: 1px solid #ccc;
+	padding: 0;
+}
+
+.left {float: left}
+.right {float: right}
+.clear {clear: both}
+
+/* Selection Block */
+
+::selection {
+	background: #F00; color: #FFF
+}
+
+header, footer {
+	width: 100%;
+	background-color: #FFF;
+	min-height: 50px;
+	float: left;
+}
+
+header {
+	border-bottom: 2px solid silver;
+	padding: 0;
+}
+#logo {
+	font-size: 2.5em;
+	font-family: 'Tangerine', serif;
+	font-weight: bold;
+}
+
+#about, #feedback, #auth, #reg, #news {
+	font-size: 1.2em;
+	font-family: 'Tangerine', serif;
+	font-weight: lighter;
+	margin-left: 20px;
+}
+
 
 #fh5co-header {
   background-repeat: no-repeat;
@@ -16,7 +92,7 @@ body {
   height: 500px;
   width: 100%;
   position: relative;
-  top: 100px;
+  top: 78px;
   z-index: 2;
   -webkit-box-shadow: inset 0px -5px 11px -6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: inset 0px -5px 11px -6px rgba(0, 0, 0, 0.25);
@@ -40,9 +116,9 @@ body {
   z-index: 20;
   position: absolute;
   bottom: 0;
-  margin-bottom: -92px;
+  margin-bottom: -98px;
   left: 50%;
-  margin-left: -92px;
+  margin-left: -98px;
 }
 #fh5co-header .bio-photo img {
   -webkit-border-radius: 50%;
@@ -56,7 +132,7 @@ body {
 }
 
 #fh5co-main {
-  padding-top: 5em;
+  padding-top: 10em;
 }
 #fh5co-main .section-heading h2 {
   text-transform: uppercase;
@@ -84,4 +160,31 @@ body {
   outline: none;
   box-shadow: none;
   border-color: #52d3aa;
+}
+
+footer {
+	border-top: 2px solid silver;
+	margin-top: 10px;
+	padding: 1%;
+	padding-bottom: 2%;
+}
+
+footer img {
+	width: 13%;
+	float: left;
+	margin-right: 5px;
+}
+
+#page-wrap:after {
+	content: "";
+	display: block;
+}
+
+footer, #page-wrap:after {
+	height: 110px;
+}
+
+#page-wrap {
+	min-height: 50px;
+	margin-bottom: -10px;
 }
