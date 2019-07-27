@@ -119,17 +119,27 @@ header {
 }
 
 #wrapper #articles article h2{
-	width: 90%;
-	margin-left: 5%;
-	font-weight: normal;
-	font-size: 1.7em;
+	width: 70%;
+	margin-left: 13%;
+	font-size: 1em;
 	color: #333;
 	text-align: center;
+	font-weight: bold;
+}
+
+#wrapper #articles article pre {
+	width: 90%;
+	margin-top: 12%;
+	margin-left: 8%;
+	text-align: center;
+	text-indent: 2em;
+	font-size: 1.3em;
 }
 
 #wrapper #articles article p {
 	width: 80%;
-	margin-left: 10%;
+	margin-top: 15%;
+	margin-left: 8%;
 	text-align: center;
 	text-indent: 1em;
 }
@@ -141,8 +151,9 @@ header {
 	border-radius: 5px;
 	color: #900;
 	float: left;
-	margin-bottom: 10px;
-	margin-left: 35%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 30%;
 }
 
 #wrapper #articles article a:hover {
@@ -161,22 +172,6 @@ h3 {
 canvas {
   display: block;
   margin: 0 auto;
-}
-
-input.restart {
-float: right;
-color: #fff;
-user-select: none; /* Убираем текстовое выделение */
-text-decoration: none;	/* Убираем подчеркивание */
-outline: none; /* Убираем контур вокруг ссылки */
-background-color: #fa8e47; /* Цвет фона */
-padding: 1em 2em; /* Отступ от текста до рамки */
-}
-input.restart:active {
-background-color: #ee6206; /* Цвет кнопки при нажатии */
-}
-input.restart:hover {
-background-color: #f97f2e; /* Цвет кнопки при наведении курсора */
 }
 
 /* Стили для формы, страницы Обратная связь */
@@ -345,7 +340,7 @@ form #login:hover {
 	background-color: #900;
 }
 
-/* Центральный блок сайта */
+/* News сайта */
 
 #main_soc_block {
 	width: 100%;
@@ -359,7 +354,6 @@ form #login:hover {
 }
 
 #main_soc_block_in {
-	text-align: center;
 	padding: 1%;
 	height: 200px;
   background-color: #FF0;
@@ -371,15 +365,113 @@ form #login:hover {
 }
 
 #main_soc_block_in a {
-	float: left;
-	padding: 5px;
+	padding: 1px;
 	background-color: #e9af32;
 	border-radius: 6px;
 	color: #F00;
-	margin-left: 23%;
-	margin-top: 15px;
+	margin-top: 25px;
 }
 
+/* Arcticle */
+
+#wrapper #about_us article img {
+	width: 55%;
+	height: 600px;
+	margin-top: 20px;
+	margin-left: 6%;
+
+}
+
+#wrapper #about_us  article h2{
+	width: 100%;
+	margin-left: 6%;
+	font-size: 1.5em;
+	color: #333;
+	text-align: left;
+	font-weight: bold;
+}
+
+#wrapper #about_us article p {
+	width: 80%;
+	margin-top: 2%;
+	margin-left: 5%;
+	text-align: left;
+	text-indent: 1.2em;
+}
+
+#wrapper #about_us article iframe {
+	width: 55%;
+	height: 400px;
+	margin-top: 20px;
+	margin-left: 6%;
+}
+
+/* Arcticle1 */
+
+#wrapper article img {
+	width: 60%;
+	height: 600px;
+	margin-top: 20px;
+	margin-left: 1%;
+
+}
+
+#wrapper  article h2 {
+	width: 80%;
+	margin-left: 6%;
+	font-size: 1.3em;
+	color: #333;
+	text-align: left;
+}
+
+#wrapper article pre {
+	width: 80%;
+	margin-top: 2%;
+	text-align: left;
+	text-indent: 1em;
+	font-weight: lighter;
+}
+
+#wrapper article iframe {
+	width: 70%;
+	height: 400px;
+	margin-top: 20px;
+	margin-left: 3%;
+}
+
+/* Arcticle2 */
+
+#wrapper #about_us article img {
+	width: 55%;
+	height: 600px;
+	margin-top: 20px;
+	margin-left: 6%;
+
+}
+
+#wrapper #about_us  article h2{
+	width: 100%;
+	margin-left: 6%;
+	font-size: 1.5em;
+	color: #333;
+	text-align: left;
+	font-weight: bold;
+}
+
+#wrapper #about_us article p {
+	width: 80%;
+	margin-top: 2%;
+	margin-left: 5%;
+	text-align: left;
+	text-indent: 1.2em;
+}
+
+#wrapper #about_us article iframe {
+	width: 55%;
+	height: 400px;
+	margin-top: 20px;
+	margin-left: 6%;
+}
 
 /* Стили для футера */
 footer {
