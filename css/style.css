@@ -1,0 +1,410 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html {
+	height: 100%
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	color: #333;
+	background: #fafafa;
+	font-size: 1.1em;
+	font-family: Comic Sans MS, sans-serif;
+	line-height: 135%;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	transition: all.6s ease;
+}
+
+a:hover {
+	color: #FFA894;
+	text-decoration: none;
+	transition: all.6s ease;
+}
+
+a:active {
+	color: #FF2424;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+
+hr {
+	display: block;
+	border: 0;
+	height: 1px;
+	border-top: 1px solid #ccc;
+	padding: 0;
+}
+
+.left {float: left}
+.right {float: right}
+.clear {clear: both}
+
+/* Selection Block */
+
+::selection {
+	background: #F00; color: #FFF
+}
+
+header, footer {
+	width: 98%;
+	background-color: #FFF;
+	min-height: 50px;
+	float: left;
+}
+
+header {
+	border-bottom: 2px solid silver;
+	padding: 1%;
+}
+
+#logo {
+	font-size: 2.5em;
+	font-family: 'Tangerine', serif;
+	font-weight: bold;
+}
+
+#about, #feedback, #auth, #reg, #news {
+	font-size: 1.2em;
+	font-family: 'Tangerine', serif;
+	font-weight: lighter;
+	margin-left: 20px;
+}
+
+/* Основные стили для сайта */
+
+#wrapper {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#wrapper #articles {
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#wrapper #articles article {
+	float: left;
+	width: 31.33333%;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #fafafa;
+	margin-right: 2%;
+	min-height: 400px;
+}
+
+#wrapper #articles article img {
+	width: 100%;
+	height: 300px;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid silver;
+	margin-bottom: 10px;
+
+}
+
+#wrapper #articles article h2{
+	width: 90%;
+	margin-left: 5%;
+	font-weight: normal;
+	font-size: 1.7em;
+	color: #333;
+	text-align: center;
+}
+
+#wrapper #articles article p {
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	text-indent: 1em;
+}
+
+#wrapper #articles article a {
+	padding: 5px 10px;
+	background-color: #ed7b7b;
+	margin-left: 5%;
+	border-radius: 5px;
+	color: #900;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 35%;
+}
+
+#wrapper #articles article a:hover {
+	background-color: #7feb6d;
+}
+
+/* Стили для страницы о нас */
+
+h3 {
+	font-size: 2em;
+	font-family: 'Tangerine', serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+input.restart {
+float: right;
+color: #fff;
+user-select: none; /* Убираем текстовое выделение */
+text-decoration: none;	/* Убираем подчеркивание */
+outline: none; /* Убираем контур вокруг ссылки */
+background-color: #fa8e47; /* Цвет фона */
+padding: 1em 2em; /* Отступ от текста до рамки */
+}
+input.restart:active {
+background-color: #ee6206; /* Цвет кнопки при нажатии */
+}
+input.restart:hover {
+background-color: #f97f2e; /* Цвет кнопки при наведении курсора */
+}
+
+/* Стили для формы, страницы Обратная связь */
+
+form {
+	width: 60%;
+	margin-left: 20%;
+	float: left;
+}
+
+form label {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+form input {
+	border-radius: 5px;
+	border: 2px solid silver;
+	padding: 5px;
+	float: left;
+	clear: both;
+	width: 40%;
+	background-color: #D4D4D4;
+	margin-bottom: 10px;
+}
+
+form input:focus, form textarea:focus {
+	border: 2px solid #f58b8b
+}
+
+form textarea {
+	width: 60%;
+	float: left;
+	clear: both;
+	background-color: #D4D4D4;
+	border: 2px solid silver;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 1.7em;
+}
+
+form #send {
+	float: left;
+	padding: 10px;
+	background-color: #F00;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 10px;
+	font-size: 2em;
+	color: #FFF;
+}
+
+form #send:hover {
+	background-color: #FF6;
+}
+
+
+/* Стили для страницы Входа */
+
+h1.stylenew {
+	font-family: Comis Sans MS, sans-serif;
+	font-size: 3.5em;
+	color: red;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-left: 35%;
+}
+
+
+form {
+	margin-top: 50px;
+	width: 75%;
+	margin-left: 35%;
+	float: left;
+}
+
+form label {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+form input {
+	border-radius: 5px;
+	border: 1px solid silver;
+	padding: 10px;
+	float: left;
+	clear: both;
+	width: 40%;
+	background-color: #D4D4D4;
+	margin-bottom: 10px;
+}
+
+form #login {
+	float: left;
+	padding: 10px;
+	background-color: #F00;
+	cursor: pointer;
+	border-radius: 50px;
+	margin-top: 50px;
+	font-size: 2em;
+	color: #FFF;
+}
+
+form #login:hover {
+	background-color: #900;
+}
+
+/* Стили для страницы Регистрация */
+
+h1.stylenew2 {
+	font-family: Comis Sans MS, sans-serif;
+	font-size: 3.5em;
+	color: red;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-left: 35%;
+}
+
+p.stylenew1 {
+	font-size: 1em;
+	color: #000;
+	font-weight: normal;
+	margin-top: 400px;
+	margin-left: 0%;
+}
+
+
+form {
+	margin-top: 50px;
+	width: 75%;
+	margin-left: 35%;
+	float: left;
+}
+
+form label {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+form input {
+	border-radius: 5px;
+	border: 1px solid silver;
+	padding: 10px;
+	float: left;
+	clear: both;
+	width: 40%;
+	background-color: #D4D4D4;
+	margin-bottom: 10px;
+}
+
+form #register {
+	float: left;
+	padding: 10px;
+	background-color: #F00;
+	cursor: pointer;
+	border-radius: 50px;
+	margin-top: 50px;
+	font-size: 2em;
+	color: #FFF;
+}
+
+form #login:hover {
+	background-color: #900;
+}
+
+/* Центральный блок сайта */
+
+#main_soc_block {
+	width: 100%;
+	padding: 2%;
+	border-bottom: 2px solid silver;
+	border-top: 2px solid silver;
+	margin: 20px 0;
+	float: left;
+	background: url(http://bgfons.com/uploads/skull/skull_texture2501.jpg) repeat-x center 0;
+	height: 200px;
+}
+
+#main_soc_block_in {
+	text-align: center;
+	padding: 1%;
+	height: 200px;
+  background-color: #FF0;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	border-radius: 7px;
+	width: 500px;
+	max-width: 98%;
+}
+
+#main_soc_block_in a {
+	float: left;
+	padding: 5px;
+	background-color: #e9af32;
+	border-radius: 6px;
+	color: #F00;
+	margin-left: 23%;
+	margin-top: 15px;
+}
+
+
+/* Стили для футера */
+footer {
+	border-top: 2px solid silver;
+	margin-top: 10px;
+	padding: 1%;
+	padding-bottom: 2%;
+}
+
+footer img {
+	width: 13%;
+	float: left;
+	margin-right: 5px;
+}
+
+#page-wrap:after {
+	content: "";
+	display: block;
+}
+
+footer, #page-wrap:after {
+	height: 10px;
+}
+
+#page-wrap {
+	min-height: 98%;
+	margin-bottom: -10px;
+}
