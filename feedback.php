@@ -39,7 +39,6 @@
     }
   }
 ?>
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -59,7 +58,7 @@
           <a href="index.html" title="На главную" id="logo">Kashenko team</a>
           <a href="news.html" title="Новости" id="news">Новости</a>
           <a href="about.html" title="О нас" id="about">Развлечения</a>
-          <a href="feedback.html" title="Обратная связь" id="feedback">Обратная связь</a>
+          <a href="feedback.php" title="Обратная связь" id="feedback">Обратная связь</a>
           <a href="auth.html" title="Вход" id="auth">Вход</a>
           <a href="reg.html" title="Регистрация" id="reg">Регистрация</a>
         </center>
