@@ -600,6 +600,9 @@ body {
   padding: 12px;
   background-color: transparent;
   border-radius: 5px;
+  min-width: 230px;
+    max-width: 230px;
+}
 }
 .contact-form .btn {
   height: 100%;
@@ -710,9 +713,9 @@ a {
   .contact-form__field {
     flex: 1;
   }
-  .contact-form__field:not(:last-child) {
+  /* .contact-form__field:not(:last-child) {
     margin-right: 32px;
-  }
+  } */
 }
 @media (min-width: 1200px) {
   .intro__img {
