@@ -697,7 +697,6 @@ a {
   }
   .intro__img {
     width: 800px;
-        margin-left: auto;
   }
   .info__content {
     display: flex;
@@ -824,6 +823,9 @@ a {
 @media (max-width: 1025px) {
   .navbar .btn--secondary {
     display: none;
+  }
+  .intro__img {
+            margin-left: -30%;
   }
   .main-footer .container-xl {
     padding-right: 32px;
