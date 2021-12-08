@@ -1427,6 +1427,8 @@ a {
     padding-bottom: 295px;
   }
   .main-footer__content .main-footer__contact {
+    margin-left: 0;
+    order: 2;
     text-align: left;
   }
   .partners .title-wrapper {
@@ -1625,8 +1627,14 @@ a {
   }
   .steps__route__image img {
     max-width: 75%;
-    min-width: 50px;
     min-height: auto;
+  }
+  .steps__route__image img {
+    max-width: 75%;
+    min-height: auto;
+  }
+  .steps__route__rocket img {
+        min-width: 50px;
   }
   .steps__route__rocket {
     top: -13%;
