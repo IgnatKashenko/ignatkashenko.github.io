@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Акселератор</title>
+    <link rel="stylesheet" href="../dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../dist/css/fonts.css">
+    <link rel="stylesheet" href="../dist/css/main.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="main-header">
+        <nav class="navbar navbar-light py-3">
+            <div class="container-xl">
+                <div class="main-header__nav">
+                    <a class="navbar-brand" href="#">
+                        <div class="logo">
+                            <div class="logo__image logo__one">
+                                <img src="../dist/images/logo-1-2.png" alt="">
+                            </div>
+                            <div class="logo__image logo__two">
+                                <img src="../dist/images/logo-2-2.png" alt="">
+                            </div>
+                            <div class="logo__text">
+                                Безграничная<br /> молодежь
+                            </div>
+                        </div>
+                    </a>
+                    <a class="poor-vision" href="#">
+                        <img src="../dist/images/eye.svg" class="poor-vision__image" alt="" />
+                        <div class="poor-vision__text">Версия для слабовидящих</div>
+                    </a>
+                    <div class="button-wrapper xl-down-hide">
+                        <button class="btn btn--secondary">Стать участником</button>
+                        <button class="btn btn--login">Войти</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="section registration">
+      <div class="container-xl">
+        <div class="title-wrapper">
+            <h2 class="section__title">
+                Регистрация
+            </h2>
+            <form class="registration-form__form">
+              <div class="registration__info">
+                <div class="registration__info__items">
+                  <div class="registration-form__field">
+                      <input type="text" class="registration-form__input" name="name" placeholder="ФИО">
+                  </div>
+                  <div class="registration-form__field">
+                      <input type="text" class="registration-form__input" name="city" placeholder="Город">
+                  </div>
+                </div>
+                <div class="registration__info__items">
+                  <div class="registration-form__field">
+                      <input type="date" class="registration-form__input" name="data" placeholder="Дата рождения">
+                  </div>
+                  <div class="registration-form__field">
+                    <p class="registration-form__field__text">Например: + 38 (095) 000-00-00</p>
+                      <input type="number" class="registration-form__input" name="phone" placeholder="Номер телефона">
+                  </div>
+                </div>
+                <div class="registration__info__items">
+                  <div class="registration-form__field">
+                      <input type="email" class="registration-form__input" name="email" placeholder="E-mail">
+                  </div>
+                  <div class="registration-form__field">
+                      <input type="text" class="registration-form__input" name="password" placeholder="Пароль">
+                  </div>
+                </div>
+              </div>
+              <div class="registration__content full-height">
+                <div class="registration__info">
+                <div class="registration__gender">
+                  <div class="registration__gender__title">
+                    <h4 class="section__title">
+                        Выберите пол:
+                    </h4>
+                  </div>
+                    <div class="registration__gender__items">
+                      <div class="registration__gender__item">
+                        <input id="man" class="custom-radio" type="radio" name="gender" value="man" checked>
+                        <label for="man">Мужской</label>
+                      </div>
+                      <div class="registration__gender__item">
+                        <input id="woman" class="custom-radio"  type="radio" name="gender" value="woman">
+                        <label for="woman">Женский</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="registration__peculiarity">
+                    <div class="registration__peculiarity__title">
+                      <h3 class="section__title">
+                          Какая особенность у тебя?
+                      </h3>
+                    </div>
+                    <div class="registration__peculiarity__items">
+                      <div class="registration__peculiarity__item peculiarity__vision">
+                        <div class="registration__peculiarity__img">
+                          <img class="reg__img__main" src="../dist/images/peculiarity__vision.svg" alt="" />
+                          <img class="reg__img" src="../dist/images/peculiarity__vision__active.svg" alt="" />
+                        </div>
+                        <div class="registration__peculiarity__text">
+                          <p>"Особенно вижу"</p>
+                        </div>
+                      </div>
+                      <div class="registration__peculiarity__item peculiarity__hearing">
+                        <div class="registration__peculiarity__img">
+                          <img class="reg__img__main" src="../dist/images/peculiarity__hearing.svg" alt="" />
+                          <img class="reg__img" src="../dist/images/peculiarity__hearing__active.svg" alt="" />
+                        </div>
+                        <div class="registration__peculiarity__text">
+                          <p>"Особенно слышу"</p>
+                        </div>
+                      </div>
+                      <div class="registration__peculiarity__item peculiarity__movement">
+                        <div class="registration__peculiarity__img regist__active">
+                          <img class="reg__img__main" src="../dist/images/peculiarity__movement.svg" alt="" />
+                          <img class="reg__img" src="../dist/images/peculiarity__movement__active.svg" alt="" />
+                        </div>
+                        <div class="registration__peculiarity__text">
+                          <p>"Особенно двигаюсь"</p>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="registration__agreement">
+                      <input class="registration__agreement__input" type="checkbox" name="" value="">
+                      <p class="registration__agreement__text">
+                        Даю согласие на <span>обработку моих персональных данных</span>
+                      </p>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="btn btn--secondary btn--intro">Стать участником</button>
+                    </div>
+              </form>
+              </div>
+            <div class="intro__image">
+                <div class="image-wrapper">
+                    <img class="" src="../dist/images/bg__registration.png" alt="">
+                </div>
+            </div>
+          </div>
+    </section>
+    <footer class="main-footer">
+      <div class="container-xl">
+          <div class="main-footer__content">
+              <div class="main-footer__logo">
+                  <a href="#">
+                      <div class="logo">
+                          <div class="logo__image">
+                              <img src="../dist/images/logo-1-2.png" alt="">
+                          </div>
+                          <div class="logo__image">
+                              <img src="../dist/images/logo-2-white.png" alt="">
+                          </div>
+                          <div class="logo__text">
+                              Безграничная
+                              молодежь
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="main-footer__info desk">
+                  <p class="main-footer__text">Реализация проекта по поручению Президента РФ Пр-2177, п.2:</p>
+                  <a href="https://kremlin.ru/acts/assignments/orders/64694" target="_blank"
+                      class="main-footer__link">kremlin.ru/acts/assignments/orders/64694</a>
+              </div>
+              <div class="main-footer__info mob">
+                  <p class="main-footer__text">Реализация проекта по поручению Президента РФ Пр-2177, п.2: <a href="https://kremlin.ru/acts/assignments/orders/64694" target="_blank"
+                      class="main-footer__link">kremlin.ru/acts/assignments/orders/64694</a></p>
+              </div>
+              <div class="main-footer__registration">
+                  <p class="main-footer__registration-text mb-2 fw-bold">Контакты для связи</p>
+                  <a href="mailto:naripsproject.ru@gmail.com"
+                      class="main-footer__registration-text">naripsproject.ru@gmail.com</a>
+              </div>
+          </div>
+          <div class="main-footer__copyright">
+              <p class="main-footer__copyright-text">©️ 2021 Ассоциация «Национальная ассоциация развития
+                  инноваций,
+                  предпринимательства и самозанятости» </p>
+              <p class="main-footer__copyright-text">Все права защищены, размещённые материалы являются объектами
+                  интеллектуальной собственности</p>
+          </div>
+      </div>
+    </footer>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../dist/js/bootstrap.js"></script>
+<script src="../dist/js/app.js"></script>
+<script src="../dist/js/spritemap.js"></script>
+<script src="../dist/js/main.js"></script>
+</body>
+
+</html>

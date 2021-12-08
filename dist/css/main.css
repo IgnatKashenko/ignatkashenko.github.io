@@ -814,6 +814,22 @@ a {
     width: 130%;
         margin-left: auto;
   }
+  .steps__route__maps > img {
+    width: 92%;
+    margin-top: -40px;
+  }
+  .steps__route__flag--7 {
+    top: -22%;
+  }
+  .steps__route__image img {
+    min-width: 150px;
+  }
+  .steps__route__image img {
+    min-width: 150px;
+  }
+  .steps__route__rocket img {
+    min-width: 100px;
+  }
 }
 @media (min-width: 1800px) {
 .intro__img {
@@ -1906,3 +1922,199 @@ a {
 }
 
 /*# sourceMappingURL=main.css.map*/
+
+
+
+
+
+
+/* Page registration  */
+
+.registration {
+  padding-top: 90px;
+}
+.section__title::after {
+  background-color: #6E7CFF;
+}
+.registration h2 {
+  margin-bottom: 52px;
+}
+.registration__info__items {
+  display: flex;
+}
+.registration-form__input {
+  max-width: 270px;
+  min-width: 270px;
+  padding: 13px 8px 12px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  background: #FFFFFF;
+  box-shadow: 1px 4px 12px rgba(65, 65, 65, 0.15);
+  border-radius: 5px;
+  border: none;
+}
+.registration-form__field__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 136.5%;
+  margin-top: -15px;
+  position: absolute;
+}
+.registration__gender__items {
+  display: flex;
+}
+.registration__gender__item:first-child {
+  margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+.custom-radio {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  /* для элемента label связанного с .custom-radio */
+  .custom-radio+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+
+  /* создание в label псевдоэлемента  before со следующими стилями */
+  .custom-radio+label::before {
+    content: '';
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    box-shadow: 1px 4px 12px rgba(65, 65, 65, 0.15);
+    border-radius: 5px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: none;
+    margin-right: 9px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    background: #fff;
+    cursor: pointer;
+  }
+
+  /* стили при наведении курсора на радио */
+  .custom-radio:not(:disabled):not(:checked)+label:hover::before {
+  }
+
+  /* стили для активной радиокнопки (при нажатии на неё) */
+  .custom-radio:not(:disabled):active+label::before {
+  }
+
+  /* стили для радиокнопки, находящейся в фокусе */
+  .custom-radio:focus+label::before {
+  }
+
+  /* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+  .custom-radio:focus:not(:checked)+label::before {
+  }
+
+  /* стили для радиокнопки, находящейся в состоянии checked */
+  .custom-radio:checked+label::before {
+    background: url("../images//arrow__gender.svg"), linear-gradient(93.94deg, #6E7CFF 7.21%, #B989FF 119.28%), #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+.registration__gender__title .section__title::after {
+  display: none;
+}
+
+
+
+  .registration__gender {
+    margin-bottom: 60px;
+  }
+  .registration h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 136.5%;
+    margin-bottom: 20px;
+  }
+  .registration h3 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 136.5%;
+    margin-bottom: 30px;
+  }
+  .registration__peculiarity__items {
+    display: flex;
+  }
+  .registration__peculiarity__item {
+    margin-right: 50px;
+  }
+  .registration__peculiarity__img {
+    width: 127px;
+    height: 127px;
+    border: 2px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    cursor: pointer;
+  }
+  .registration__peculiarity__item {
+    cursor: pointer;
+  }
+  .peculiarity__vision .registration__peculiarity__img {
+        padding: 42px 28px;
+  }
+  .peculiarity__hearing .registration__peculiarity__img {
+    padding: 29px;
+  }
+  .peculiarity__movement .registration__peculiarity__img {
+    padding: 26px 28px;
+  }
+
+  .regist__active {
+    background: linear-gradient(93.94deg, #6E7CFF 7.21%, #B989FF 119.28%), #A776E9;
+  }
+  .reg__img__main {
+    display: block;
+  }
+  .reg__img {
+    display: none;
+  }
+  .regist__active .reg__img {
+    display: block;
+  }
+  .regist__active .reg__img__main {
+    display: none;
+  }
+  .regist__text__active {
+    font-weight: bold;
+  }
+  .registration__peculiarity__text p {
+    max-width: 190px;
+  }
+  .registration__peculiarity__text p {
+    font-size: 18px;
+  }
+  .regist__text__active p {
+    background: linear-gradient(93.94deg, #6E7CFF 7.21%, #B989FF 119.28%), #A776E9;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .registration__peculiarity {
+    margin-bottom: 60px;
+  }
+  .registration__agreement {
+    display: flex;
+  }
+  .registration__agreement__input {
+    width: 28px;
+    height: 28px;
+    margin-right: 15px;
+  }
