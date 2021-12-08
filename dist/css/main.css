@@ -1054,6 +1054,12 @@ a {
   .main-footer__contact-text {
         font-size: 1.2rem;
   }
+  .contact-form__form {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 600px;
+    width: 75%;
+  }
 }
 @media (max-width: 991.98px) {
   .lg-down-hide {
@@ -1106,12 +1112,6 @@ a {
   }
   .contact-form {
     padding: 30px;
-  }
-  .contact-form__form {
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 600px;
-    width: 75%;
   }
   .contact-form__field {
     width: 48%;
