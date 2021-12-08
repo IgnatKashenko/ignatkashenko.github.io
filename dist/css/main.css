@@ -1301,7 +1301,6 @@ a {
     margin-bottom: 20px;
   }
   .main-footer__content .main-footer__contact {
-    text-align: rigjt;
     margin-left: 0;
     order: 2;
   }
@@ -1426,6 +1425,9 @@ a {
   }
   .experts .button-wrapper {
     padding-bottom: 295px;
+  }
+  .main-footer__content .main-footer__contact {
+    text-align: left;
   }
   .partners .title-wrapper {
     padding-top: 60px;
