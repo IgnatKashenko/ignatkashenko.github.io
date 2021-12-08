@@ -1106,6 +1106,10 @@ a {
   .main-footer .container-xl {
     padding-right: 16px;
   }
+  .main-footer__contact {
+    margin-left: auto;
+    margin-top: -27%;
+  }
 }
 @media (max-width: 767.98px) {
   .intro {
