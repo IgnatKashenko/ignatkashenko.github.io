@@ -1617,7 +1617,7 @@ a {
   }
 }
 
-@media (max-height: 415px) {
+@media (max-width: 415px) {
   .intro__content {
     display: flex;
   }
