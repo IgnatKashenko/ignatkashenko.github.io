@@ -800,7 +800,7 @@ a {
 }
 @media (min-width: 1450px) {
   .intro__img {
-    width: 100%;
+    min-width: 800px !important;
     margin-left: 0;
   }
 }
