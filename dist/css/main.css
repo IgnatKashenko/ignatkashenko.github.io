@@ -1092,6 +1092,9 @@ a {
   .intro {
     height: auto;
   }
+  .into__img {
+    margin-left: -50;
+  }
   .main-footer__contact {
     margin-top: -27%;
   }
