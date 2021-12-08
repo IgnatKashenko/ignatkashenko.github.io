@@ -802,6 +802,7 @@ a {
 @media (min-width: 1600px) {
   .intro__img {
     width: 130%;
+        margin-left: auto;
   }
 }
 @media (min-width: 1800px) {
