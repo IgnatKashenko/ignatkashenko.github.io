@@ -1621,6 +1621,19 @@ a {
   .intro__content {
     display: flex;
   }
+  .steps__route__image img {
+    max-width: 75%;
+    min-width: 50px;
+    min-height: auto;
+  }
+  .steps__route__rocket {
+    top: -15%;
+    left: -2%;
+  }
+  .steps__route__rocket .steps__route__info {
+    left: 97%;
+    top: 52%;
+  }
 }
 @media (max-width: 399.98px) {
   .main-header__nav .button-wrapper {
