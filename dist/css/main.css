@@ -827,6 +827,9 @@ a {
   .intro__img {
             margin-left: -30%;
   }
+  .main-footer__info {
+    width: 100%;
+  }
   .main-footer .container-xl {
     padding-right: 32px;
   }
