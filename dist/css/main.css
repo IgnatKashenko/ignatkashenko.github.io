@@ -1564,16 +1564,27 @@ a {
   }
 }
 @media (max-width: 450px) {
-.poor-vision__text {
-  color: #fff;
-  font-size: 0.9rem;
-  line-height: 1.1rem;
+  .poor-vision__text {
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
+  .poor-vision__image {
+    margin-right: 5px;
+    min-width: 20px;
+  }
+  .contact-form__text span {
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 16px;
+  }
+  .contact-form__text {
+    display: flex;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
-.poor-vision__image {
-  margin-right: 5px;
-  min-width: 20px;
-}
-}
+
 @media (max-height: 415px) {
   .intro__content {
     display: flex;
