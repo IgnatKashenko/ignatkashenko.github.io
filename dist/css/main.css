@@ -1095,6 +1095,9 @@ a {
   .main-footer__contact {
     margin-top: -27%;
   }
+  .intro__img {
+    margin-left: -55%;
+  }
   .intro__title {
     font-size: calc(1.55rem + 3.6vw);
     line-height: calc(1.55rem + 3.6vw);
