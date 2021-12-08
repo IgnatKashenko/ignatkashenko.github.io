@@ -1621,7 +1621,7 @@ a {
 
 @media (max-width: 415px) {
   .intro__content {
-    display: block;
+    display: flex;
   }
   .steps__route__image img {
     max-width: 75%;
@@ -1629,57 +1629,12 @@ a {
     min-height: auto;
   }
   .steps__route__rocket {
-    top: -15%;
+    top: -13%;
     left: -2%;
   }
   .steps__route__rocket .steps__route__info {
     left: 97%;
     top: 52%;
-  }
-  .steps__route__flag--1 {
-    top: 1.5%;
-    left: 27%;
-  }
-  .steps__route__flag--1 .steps__route__info {
-    top: 85%;
-    left: 0%;
-  }
-  .steps__route__flag--2 {
-    top: 20%;
-    left: 13%;
-  }
-  .steps__route__flag .steps__route__info--left {
-    top: 105%;
-  }
-  .steps__route__flag--3 {
-    top: 33%;
-    left: 57%;
-  }
-  .steps__route__flag--3 .steps__route__info {
-    top: 107%;
-  }
-  .steps__route__flag--4 {
-    top: 49.5%;
-    left: 8%;
-  }
-  .steps__route__flag--4 .steps__route__info {
-      top: 103%;
-  }
-  .steps__route__flag--5 {
-    top: 62%;
-    left: 60%;
-  }
-  .steps__route__flag--6 {
-    top: 73.5%;
-    left: 3.5%;
-  }
-  .steps__route__flag--7 {
-    top: 88%;
-    left: 59%;
-  }
-  .steps__route .button-wrapper {
-    left: 30%;
-    bottom: -160px;
   }
 }
 @media (max-width: 399.98px) {
