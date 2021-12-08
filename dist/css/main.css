@@ -1087,13 +1087,13 @@ a {
     width: 48%;
     margin-bottom: 20px;
   }
+  .intro__img {
+    margin-left: -50%;
+  }
 }
 @media (max-width: 767.98px) {
   .intro {
     height: auto;
-  }
-  .into__img {
-    margin-left: -50%;
   }
   .main-footer__contact {
     margin-top: -27%;
