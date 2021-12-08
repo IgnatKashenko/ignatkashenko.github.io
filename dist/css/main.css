@@ -1341,6 +1341,11 @@ min-width: 230px;
     margin-bottom: 25px;
   }
 }
+@media (min-width: 1025px) {
+.info__content {
+  display: flex;
+}
+}
 @media (max-width: 767.98px) and (min-width: 1200px) {
   .intro__title {
     font-size: 4.25rem;
