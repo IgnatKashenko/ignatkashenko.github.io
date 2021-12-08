@@ -1087,6 +1087,8 @@ a {
     width: 48%;
     margin-bottom: 20px;
   }
+}
+@media (max-width: 769px) {
   .intro__img {
     margin-left: -50%;
   }
