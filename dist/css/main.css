@@ -809,11 +809,7 @@ a {
     margin-left: 0;
   }
 }
-@media (min-width: 1600px) {
-  .intro__img {
-    width: 130%;
-        margin-left: auto;
-  }
+@media (min-width: 1800px) {
   .steps__route__maps > img {
     width: 92%;
     margin-top: -40px;
@@ -829,6 +825,12 @@ a {
   }
   .steps__route__rocket img {
     min-width: 100px;
+  }
+}
+@media (min-width: 1600px) {
+  .intro__img {
+    width: 130%;
+        margin-left: auto;
   }
 }
 @media (min-width: 1800px) {
