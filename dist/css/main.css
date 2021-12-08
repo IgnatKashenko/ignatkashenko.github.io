@@ -1488,7 +1488,7 @@ a {
     padding-top: 125px;
   }
   .steps .section__content {
-    margin-left: -110px;
+        margin-left: -105px;
   }
   .steps__route__maps > img {
     width: 130%;
@@ -1627,7 +1627,7 @@ a {
     min-height: auto;
   }
   .steps__route__rocket {
-    top: -15%;
+    top: -13%;
     left: -2%;
   }
   .steps__route__rocket .steps__route__info {
