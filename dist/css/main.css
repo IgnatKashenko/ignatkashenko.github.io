@@ -701,9 +701,9 @@ a {
   .intro__img {
     width: 800px;
   }
-  .info__content {
-    display: flex;
-  }
+  /* .info__content {
+        display: block;
+  } */
   .info__content .text-wrapper {
         margin-right: -1px;
   }
@@ -853,6 +853,9 @@ a {
 @media (max-width: 1025px) {
   .navbar .btn--secondary {
     display: none;
+  }
+  .info .button-wrapper {
+    justify-content: center;
   }
   .intro__img {
             margin-left: -30%;
@@ -1068,9 +1071,6 @@ a {
   .info .title-wrapper .section__title::after {
     margin-left: auto;
     margin-right: auto;
-  }
-  .info .button-wrapper {
-    justify-content: center;
   }
   .info__content .text-wrapper {
     margin-bottom: 30px;
