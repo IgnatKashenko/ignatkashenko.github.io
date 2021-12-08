@@ -301,6 +301,9 @@ body {
   background-repeat: no-repeat;
   z-index: 1;
 }
+.intro__img {
+    margin-left: 0;
+}
 .partners {
   background-color: #EFF5F9;
   padding-bottom: 170px;
@@ -1093,9 +1096,6 @@ a {
   .intro__img {
     margin-left: -50%;
   }
-}
-.intro__img {
-    margin-left: 0;
 }
 @media (max-width: 767.98px) {
   .intro {
