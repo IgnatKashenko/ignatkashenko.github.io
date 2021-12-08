@@ -716,13 +716,14 @@ a {
 }
 @media (min-width: 1026px) {
   .intro__img {
-    width: 800px;
-    margin-left: -60px;
+    width: 600px;
+    margin-left: 0;
   }
 }
 @media (min-width: 1200px) {
-  .intro {
-
+  .intro__img {
+    width: 800px;
+    margin-left: 0;
   }
   .steps .btn {
     padding-right: 15px;
