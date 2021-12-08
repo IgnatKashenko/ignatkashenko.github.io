@@ -700,6 +700,7 @@ a {
   }
   .intro__img {
     width: 800px;
+    margin-left: 0;
   }
   .info__content {
     display: flex;
