@@ -622,6 +622,8 @@ a {
   font-weight: 900;
   font-size: 16px;
   line-height: 16px;
+  max-width: 230px;
+min-width: 230px;
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .logo__text {
@@ -1729,7 +1731,7 @@ a {
   }
   .btn--secondary {
     width: 180px;
-    height: 40px;
+        height: 42px;
     font-size: 16px;
   }
   .intro .button-wrapper {
