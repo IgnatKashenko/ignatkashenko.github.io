@@ -1992,6 +1992,9 @@ min-width: 230px;
   position: absolute;
       color: #939393;
 }
+.registration-form__field__text a {
+  color: #939393 !important;
+}
 .registration__gender__items {
   display: flex;
 }
