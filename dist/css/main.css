@@ -1979,6 +1979,11 @@ min-width: 230px;
 
 /* Page registration  */
 
+.container__bg {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 .registration {
     padding-top: 70px;
 }
@@ -2218,39 +2223,20 @@ min-width: 230px;
 .registration__info {
       padding-bottom: 5px;
 }
+.registration-page .image-wrapper img {
+  display: block;
+  margin-left: auto;
+  margin-bottom: -1px;
+}
+.cont__bottom {
+  margin-bottom: -35%;
+}
+
 @media (min-width: 1025px) {
   .registration-page .image-wrapper img {
     min-width: 650px;
-    margin-bottom: -1px;
-        margin-top: 40px;
   }
 }
-@media (max-width: 2100px) {
-  .registration-page .image-wrapper img {
-      margin-left: 15%;
-  }
-}
-@media (max-width: 2000px) {
-  .registration-page .image-wrapper img {
-    margin-left: 10%;
-  }
-}
-@media (max-width: 1800px) {
-  .registration-page .image-wrapper img {
-    margin-left: 25%;
-  }
-}
-@media (max-width: 1600px) {
-  .registration-page .image-wrapper img {
-    margin-left: 10%;
-  }
-}
-@media (max-width: 1400px) {
-  .registration-page .image-wrapper img {
-    margin-left: 0%;
-  }
-}
-margin-left: 15%;
 @media (min-width: 1600px) {
   .section .title-wrapper {
       max-width: 100% !important;
@@ -2322,16 +2308,14 @@ margin-left: 15%;
   .registration-page .intro__img {
       margin-left: -30%;
   }
-  .registration-page .image-wrapper img {
-    margin-left: 40%;
-    width: 65%;
+  .cont__bottom {
+    margin-bottom: -20%;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .registration-page .image-wrapper img {
-    margin-left: 48%;
-        width: 60%;
+    max-width: 402px;
   }
 }
 
@@ -2359,8 +2343,10 @@ margin-left: 15%;
     min-width: 0px;
   }
   .registration-page .image-wrapper img {
-    margin-left: 25%;
-    width: 80%;
+    max-width: 298px;
+  }
+  .cont__bottom {
+    margin-bottom: -5%;
   }
   .registration-page .main-header .button-wrapper {
     display: block;
@@ -2385,9 +2371,36 @@ margin-left: 15%;
 
 @media (max-width: 380px) {
   .registration-page .image-wrapper img {
-      margin-left: 30%;
   }
   .registration__peculiarity__item {
     margin-right: 30px;
   }
+}
+
+@media (max-width: 350px) {
+  .registration__peculiarity__item {
+      margin-right: 10px;
+  }
+  .peculiarity__vision {
+    width: 140px;
+  }
+  .peculiarity__hearing {
+    width: 153px;
+  }
+  .peculiarity__movement {
+    width: 182px;
+  }
+  .registration__peculiarity__text p {
+    font-size: 14px;
+  }
+  .registration-page .poor-vision__text {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
+  .registration-page .poor-vision__image {
+    margin-right: 10px;
+    min-width: 20px;
+    margin-left: 5px;
+  }
+
 }
