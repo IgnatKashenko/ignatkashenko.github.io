@@ -1982,6 +1982,7 @@ min-width: 230px;
   box-shadow: 1px 4px 12px rgba(65, 65, 65, 0.15);
   border-radius: 5px;
   border: none;
+  -webkit-appearance: none;
 }
 .registration-form__field__text {
   font-weight: normal;
