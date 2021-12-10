@@ -2195,7 +2195,12 @@ min-width: 230px;
 }
 @media (max-width: 2100px) {
   .image-wrapper img {
-    margin-left: 15%;
+      margin-left: 15%;
+  }
+}
+@media (max-width: 2000px) {
+  .image-wrapper img {
+    margin-left: 10%;
   }
 }
 @media (max-width: 1800px) {
