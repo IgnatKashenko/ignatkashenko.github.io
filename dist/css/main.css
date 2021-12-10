@@ -1985,6 +1985,7 @@ min-width: 230px;
   line-height: 136.5%;
   margin-top: -15px;
   position: absolute;
+      color: #939393;
 }
 .registration__gender__items {
   display: flex;
