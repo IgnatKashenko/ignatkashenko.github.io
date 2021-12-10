@@ -55,13 +55,23 @@
                   <div class="registration-form__field">
                       <input type="text" class="registration-form__input" name="name" placeholder="ФИО">
                   </div>
-                  <div class="registration-form__field">
+                  <div class="registration-form__field form__field-error">
                       <input type="text" class="registration-form__input" name="city" placeholder="Город">
+                      <div class="registration-form__field-error">
+                        <p>
+                          Ошибка в вводе <br /> Пример: Москва
+                        </p>
+                      </div>
                   </div>
                 </div>
                 <div class="registration__info__items">
-                  <div class="registration-form__field">
+                  <div class="registration-form__field form__field-good">
                       <input type="text" class="registration-form__input" name="data" placeholder="Дата рождения">
+                      <div class="registration-form__field-error">
+                        <p>
+                          Ошибка в вводе <br /> Пример: 21.09.2000
+                        </p>
+                      </div>
                   </div>
                   <div class="registration-form__field">
                     <p class="registration-form__field__text">Например: + 38 (095) 000-00-00</p>
@@ -71,6 +81,11 @@
                 <div class="registration__info__items">
                   <div class="registration-form__field">
                       <input type="email" class="registration-form__input" name="email" placeholder="E-mail">
+                      <div class="registration-form__field-error">
+                        <p>
+                          Ошибка в вводе <br /> Пример: shshhsh@gmail.com
+                        </p>
+                      </div>
                   </div>
                   <div class="registration-form__field">
                       <input type="text" class="registration-form__input" name="password" placeholder="Пароль">
