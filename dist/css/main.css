@@ -819,6 +819,9 @@ min-width: 230px;
     width: 92%;
     margin-top: -40px;
   }
+  .experts {
+    padding-bottom: 250px;
+  }
   .steps__route__flag--7 {
     top: -22%;
   }
@@ -1932,11 +1935,14 @@ min-width: 230px;
 
 
 
-@media screen and (max-width:850px) and (max-height:500px) {
+@media screen and (max-width:850px) and (max-height: 550px) {
   .intro__img {
       width: 500px;
       margin-left: -35%;
   }
+  .main-footer__content .main-footer__contact {
+      margin-top: -5%;
+    }
 }
 
 /*# sourceMappingURL=main.css.map*/
@@ -1949,13 +1955,15 @@ min-width: 230px;
 /* Page registration  */
 
 .registration {
-  padding-top: 90px;
+    padding-top: 70px;
 }
 .section__title::after {
   background-color: #6E7CFF;
 }
 .registration h2 {
-  margin-bottom: 52px;
+  margin-bottom: 42px;
+  line-height: 45px;
+  font-size: 2.8rem;
 }
 .registration__info__items {
   display: flex;
@@ -1987,12 +1995,6 @@ min-width: 230px;
 
 
 
-
-
-
-
-
-
 .custom-radio {
     position: absolute;
     z-index: -1;
@@ -2004,6 +2006,9 @@ min-width: 230px;
     display: inline-flex;
     align-items: center;
     user-select: none;
+    color: #939393;
+    font-size: 18px;
+    line-height: 136.5%;
   }
 
   /* создание в label псевдоэлемента  before со следующими стилями */
@@ -2047,14 +2052,19 @@ min-width: 230px;
     background-repeat: no-repeat;
     background-position: center;
   }
-.registration__gender__title .section__title::after {
-  display: none;
-}
-
+  .custom-radio:checked+label {
+    color: #323239;
+  }
+  .registration__gender__title .section__title::after {
+    display: none;
+  }
+  .registration-page .main-header .button-wrapper {
+    display: none;
+  }
 
 
   .registration__gender {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
   .registration h4 {
     font-weight: bold;
@@ -2072,7 +2082,6 @@ min-width: 230px;
     display: flex;
   }
   .registration__peculiarity__item {
-    margin-right: 50px;
   }
   .registration__peculiarity__img {
     width: 127px;
@@ -2080,14 +2089,30 @@ min-width: 230px;
     border: 2px solid #C7C7C7;
     box-sizing: border-box;
     border-radius: 50%;
-    margin: 0 auto 15px;
     cursor: pointer;
+    margin: 0 0 15px;
   }
   .registration__peculiarity__item {
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        width: 100%;
+    margin-right: 45px;
+  }
+  .peculiarity__vision {
+    width: 147px;
+  }
+  .peculiarity__hearing {
+    width: 160px;
+  }
+  .peculiarity__movement {
+    width: 189px;
   }
   .peculiarity__vision .registration__peculiarity__img {
         padding: 42px 28px;
+        margin-left: 0;
   }
   .peculiarity__hearing .registration__peculiarity__img {
     padding: 29px;
@@ -2115,10 +2140,11 @@ min-width: 230px;
     font-weight: bold;
   }
   .registration__peculiarity__text p {
-    max-width: 190px;
+
   }
   .registration__peculiarity__text p {
     font-size: 18px;
+    text-align: center;
   }
   .regist__text__active p {
     background: linear-gradient(93.94deg, #6E7CFF 7.21%, #B989FF 119.28%), #A776E9;
@@ -2126,7 +2152,7 @@ min-width: 230px;
     -webkit-text-fill-color: transparent;
   }
   .registration__peculiarity {
-    margin-bottom: 60px;
+    margin-bottom: 35px;
   }
   .registration__agreement {
     display: flex;
@@ -2136,3 +2162,195 @@ min-width: 230px;
     height: 28px;
     margin-right: 15px;
   }
+
+
+.registration__agreement__text {
+  margin-bottom: 0;
+  padding-top: 5px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000;
+}
+.registration__agreement__text span {
+  color: #7A5EE5;
+  border-bottom: 1px solid #7A5EE5;
+}
+.registration__agreement {
+  margin-bottom: 65px;
+}
+.registration__content {
+  display: flex;
+  justify-content: space-between;
+}
+.registration__info {
+      padding-bottom: 5px;
+}
+@media (min-width: 1025px) {
+  .image-wrapper img {
+    min-width: 650px;
+    margin-bottom: -1px;
+        margin-top: 40px;
+  }
+}
+@media (max-width: 2100px) {
+  .image-wrapper img {
+    margin-left: 15%;
+  }
+}
+@media (max-width: 1800px) {
+  .image-wrapper img {
+    margin-left: 25%;
+  }
+}
+@media (max-width: 1600px) {
+  .image-wrapper img {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 1400px) {
+  .image-wrapper img {
+    margin-left: 0%;
+  }
+}
+margin-left: 15%;
+@media (min-width: 1600px) {
+  .section .title-wrapper {
+      max-width: 100% !important;
+  }
+}
+.section .title-wrapper {
+    max-width: 980px;
+}
+#reg__agr:checked,
+#reg__agr:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+#reg__agr:checked + label,
+#reg__agr:not(:checked) + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+#reg__agr:checked + label:before,
+#reg__agr:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 28px;
+    height: 28px;
+    background-color: #ffffff;
+}
+#reg__agr:not(:checked) + label:before {
+  background: #FFFFFF;
+  box-shadow: 1px 4px 12px rgba(65, 65, 65, 0.15);
+}
+#reg__agr:checked + label:before {
+    background: #00C22B;
+    box-shadow: none;
+}
+#reg__agr:checked + label:after,
+#reg__agr:not(:checked) + label:after {
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+#reg__agr:checked + label:after,
+#reg__agr:not(:checked) + label:after {
+  background: url("../images/arrow__agr.svg");
+  background-repeat: no-repeat;
+  left: 9px;
+  top: 10px;
+  width: 10px;
+  height: 8px;
+}
+
+
+
+
+@media (max-width: 1024px) {
+  .registration__content {
+    display: block;
+  }
+  .registration__info {
+    padding-bottom: 0;
+  }
+  .intro__img {
+      margin-left: -30%;
+  }
+  .image-wrapper img {
+    margin-left: 40%;
+    width: 65%;
+  }
+}
+
+@media (max-width: 767px) {
+  .image-wrapper img {
+    margin-left: 48%;
+        width: 60%;
+  }
+}
+
+@media (max-width: 550px) {
+  .registration__info__items {
+      display: block;
+  }
+  .registration__peculiarity__img {
+    width: 80px;
+    height: 80px;
+  }
+  .peculiarity__vision .registration__peculiarity__img {
+        padding: 27px 18px;
+  }
+  .peculiarity__hearing .registration__peculiarity__img {
+    padding: 18px;
+  }
+  .peculiarity__movement .registration__peculiarity__img {
+    padding: 16px 17px;
+  }
+  .registration__peculiarity__img img {
+    width: 100%;
+  }
+  .registration__peculiarity__text p {
+    min-width: 0px;
+  }
+  .image-wrapper img {
+    margin-left: 25%;
+    width: 80%;
+  }
+  .registration-page .main-header .button-wrapper {
+    display: block;
+  }
+  .registration-page .poor-vision__image {
+    margin-right: 5px;
+    min-width: 40px;
+    margin-left: 15px;
+  }
+  .registration-page .poor-vision__text {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+  }
+  .registration-page  .poor-vision {
+    margin-bottom: 15px;
+  }
+  .registration-page .button-wrapper {
+    width: initial;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 380px) {
+  .image-wrapper img {
+      margin-left: 30%;
+  }
+  .registration__peculiarity__item {
+    margin-right: 30px;
+  }
+}
