@@ -1982,7 +1982,7 @@ min-width: 230px;
 .registration {
     padding-top: 70px;
 }
-.section__title::after {
+.registration-page .section__title::after {
   background-color: #6E7CFF;
 }
 .registration h2 {
@@ -2358,7 +2358,7 @@ margin-left: 15%;
   .registration__peculiarity__text p {
     min-width: 0px;
   }
-  .image-wrapper img {
+  .registration-page .image-wrapper img {
     margin-left: 25%;
     width: 80%;
   }
